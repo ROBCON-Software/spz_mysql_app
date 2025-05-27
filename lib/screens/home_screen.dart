@@ -180,13 +180,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 color: Color(0xFF004B81),
               ),
             ),
-            Text(
-              widget.userName,
-              style: const TextStyle(
-                fontSize: userNameFontSize,
-                color: Colors.white,
-              ),
-            ),
           ],
         ),
         centerTitle: true,
