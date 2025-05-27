@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
         hintColor: const Color(0x88004B81),
-        cardTheme: CardThemeData(  // Changed from CardTheme to CardThemeData
+        cardTheme: CardThemeData(
           color: Colors.lightBlue[50],
         ),
       ),

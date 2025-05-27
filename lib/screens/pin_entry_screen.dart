@@ -126,7 +126,7 @@ class _PinEntryScreenState extends State<PinEntryScreen> {
           _failedAttempts = 0;
 
           final dynamic isAdminRaw = responseBody['is_admin'];
-          final dynamic userName = responseBody['user_name']; // Get username from response
+          final dynamic userName = responseBody['user_name'];
 
           int isAdmin = 0; // Default to non-admin
 
