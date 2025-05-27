@@ -297,7 +297,17 @@ class _PinEntryScreenState extends State<PinEntryScreen> {
                           disabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(12), borderSide: BorderSide(color: Colors.grey.shade300, width: 1.5)),
                           hintText: hintText,
                           hintStyle: TextStyle(fontSize: 32, letterSpacing: 20.0, color: Colors.grey.withOpacity(0.5), fontWeight: FontWeight.bold),
-                          contentPadding: const EdgeInsets.symmetric(vertical: 20),
+                          // contentPadding: const EdgeInsets.symmetric(vertical: 20),
+                          contentPadding: EdgeInsets.only(
+                              left: 15, // This is an estimation, adjust!
+                              // The idea is to push the start of the text
+                              // slightly to the right if it appears too left.
+                              // Try values like 20, 25, 30 for `left`.
+                              right: 10.0, // Keep some right padding
+                              top: 20,
+                              bottom: 20
+                          ),
+
                           semanticCounterText: 'PIN digits remaining',
                         ),
                         onChanged: (value) {
