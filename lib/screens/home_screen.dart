@@ -346,7 +346,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                                 : const Color(0xFF004B81),
                                             decoration: _car!.ownerPhone.isEmpty
                                                 ? TextDecoration.none
-                                                : TextDecoration.underline,
+                                                : TextDecoration.none,
                                             fontWeight: _car!.ownerPhone.isEmpty
                                                 ? FontWeight.normal
                                                 : FontWeight.bold,
