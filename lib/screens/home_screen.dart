@@ -183,7 +183,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ],
         ),
         centerTitle: true,
-        toolbarHeight: 100,
+        toolbarHeight: 70,
       ),
       body: Column(
         children: [

@@ -256,10 +256,10 @@ class _PinEntryScreenState extends State<PinEntryScreen> {
 
     return Scaffold(
       appBar: AppBar(
+        toolbarHeight: 70,
         automaticallyImplyLeading: false,
         title: const Text('De Bondt - SPZ', style: TextStyle(fontSize: appBarTitleFontSize, fontWeight: FontWeight.normal, color: Color(0xFF004B81))),
         centerTitle: true,
-        toolbarHeight: 100,
       ),
       body: Column(
         children: [
